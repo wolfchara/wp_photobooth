@@ -58,6 +58,7 @@
         </div>
       </div>
     </div> -->
+    <?php get_template_part( "about.php" ); ?>
     <div class="about__container">
       <div class="head__title">
         <h2>

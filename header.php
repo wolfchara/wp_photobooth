@@ -24,7 +24,13 @@
     </div>
   </div>
   <div class="wrapper">
-    <ul class="nav__menu">
+  <?php wp_nav_menu(array(
+      'theme_location'  => 'menu',
+      'container'       => 'wrapper',
+      'menu_class'      => 'nav__menu',
+      'menu_id'         => null
+    )); ?>
+    <!-- <ul class="nav__menu">
       <li>
         <a href="index.php">ГЛАВНАЯ</a>
       </li>
@@ -46,7 +52,7 @@
       <li>
         <a href="contacts.php">КОНТАКТЫ</a>
       </li>
-  </ul>
+  </ul> -->
   <div class="nav__menu-mobile">
         <span href="" onclick="openNav()">&#9776;МЕНЮ</span>
       </div>
