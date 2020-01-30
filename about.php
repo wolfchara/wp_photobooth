@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php
+// Template Name: about
+get_header(); ?>
 <!-- <!DOCTYPE html>
 <html lang="en">
   <head>

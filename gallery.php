@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+// Template Name: gallery
+get_header(); ?>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +10,7 @@
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="./img/icons/favicon.png"
+      href="http://photobooth/wp-content/themes/photobooth/assets/img/icons/favicon.png"
     />
     <link
       href="https://fonts.googleapis.com/css?family=Aleo:400,700|Josefin+Sans:300,400,600,700&display=swap&"
@@ -59,7 +62,7 @@
           <span href="" onclick="openNav()">&#9776;МЕНЮ</span>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="contact__container">
       <div class="head__title">
         <h2>
@@ -75,14 +78,14 @@
             Собираетесь ли вы на свадьбу? Аренда фотобудки - лучший способ сделать ее веселой и запоминающейся. Наша фотобудка с профессиональной камерой и бортпроводником уловит каждую улыбку на ваших лицах, а наш красивый дизайн полосок заставит ваши воспоминания остаться с вами навсегда!
           </p>
       <div class="owl-carousel owl-theme">
-        <div class="item"><img src="./img/gallery_wedding/wed1.jpg" alt="photo_wedding"></div>
-        <div class="item"><img src="./img/gallery_wedding/wed2.jpg" alt="photo_wedding"></div>
-        <div class="item"><img src="./img/gallery_wedding/wed3.jpg" alt="photo_wedding"></div>
-        <div class="item"><img src="./img/gallery_wedding/wed4.jpg" alt="photo_wedding"></div>
-        <div class="item"><img src="./img/gallery_wedding/wed5.jpg" alt="photo_wedding"></div>
-        <div class="item"><img src="./img/gallery_wedding/wed6.jpg" alt="photo_wedding"></div>
-        <div class="item"><img src="./img/gallery_wedding/wed7.jpg" alt="photo_wedding"></div>
-        <div class="item"><img src="./img/gallery_wedding/wed8.jpg" alt="photo_wedding"></div>
+        <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed1.jpg" alt="photo_wedding"></div>
+        <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed2.jpg" alt="photo_wedding"></div>
+        <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed3.jpg" alt="photo_wedding"></div>
+        <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed4.jpg" alt="photo_wedding"></div>
+        <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed5.jpg" alt="photo_wedding"></div>
+        <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed6.jpg" alt="photo_wedding"></div>
+        <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed7.jpg" alt="photo_wedding"></div>
+        <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed8.jpg" alt="photo_wedding"></div>
     </div>
 </div>
 <div class="gallery__container gallery__birthday">
@@ -92,14 +95,14 @@
     <p class="gallery__container-text birthday__text">
         Сладкие 16? Совершеннолетие? 50 лет? Мы создадим уникальный опыт фотобудки для любого типа дней рождения. Вы думаете - мы реализуем!    </p>
 <div class="owl-carousel owl-theme">
-  <div class="item"><img src="./img/gallery_wedding/wed1.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed2.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed3.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed4.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed5.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed6.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed7.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed8.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed1.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed2.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed3.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed4.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed5.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed6.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed7.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed8.jpg" alt="photo_wedding"></div>
 </div>
 </div>
 <div class="gallery__container gallery__events">
@@ -109,14 +112,14 @@
     <p class="gallery__container-text events__text">
         Наши корпоративные пакеты фотобудок идеально подходят для сезонных внутренних мероприятий, наградных вечеров, благотворительных обедов и корпоративных гала-концертов. Опыт работы в фотобудке никогда не бывает одинаковым, и наши фотобудки были разработаны, чтобы создать тонкий, но увлекательный способ взаимодействия с коллегами и взаимодействия с вашей командой. Само собой разумеется, что они стали неотъемлемой частью корпоративного Shindig.</p>
         <div class="owl-carousel owl-theme">
-  <div class="item"><img src="./img/gallery_wedding/wed1.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed2.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed3.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed4.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed5.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed6.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed7.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed8.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed1.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed2.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed3.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed4.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed5.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed6.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed7.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed8.jpg" alt="photo_wedding"></div>
 </div>
 </div>
 <div class="gallery__container gallery__party">
@@ -126,17 +129,17 @@
     <p class="gallery__container-text events__text">
         В 199PhotoBooth мы любим все виды вечеринок - девичник, праздник, Хэллоуин, Оскар, Святой Патрик, Синко де Майо; У этого списка нет конца. Мы никогда не скажем «нет» на вечеринке. Так что, если у вас вечеринка, приглашайте нас.</p>
         <div class="owl-carousel owl-theme">
-  <div class="item"><img src="./img/gallery_wedding/wed1.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed2.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed3.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed4.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed5.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed6.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed7.jpg" alt="photo_wedding"></div>
-  <div class="item"><img src="./img/gallery_wedding/wed8.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed1.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed2.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed3.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed4.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed5.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed6.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed7.jpg" alt="photo_wedding"></div>
+  <div class="item"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/gallery_wedding/wed8.jpg" alt="photo_wedding"></div>
 </div>
 </div>
-      <div class="map">
+      <!-- <div class="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d779.4575920282467!2d24.710341450551557!3d48.919728800259136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1579007299243!5m2!1suk!2sua"
           width="100%"
@@ -148,7 +151,7 @@
       </div>
       <div class="call">
         <a class="call-to-us" href="tel: +7(123)-456-7890"
-          ><img src="./img/icons/call.png" alt="call"
+          ><img src="http://photobooth/wp-content/themes/photobooth/assets/img/icons/call.png" alt="call"
         /></a>
       </div>
       <footer>
@@ -204,5 +207,5 @@
       <script src='js/owl.carousel.min.js'></script>
       <script src="js/main.js"></script>
     </body>
-  </html>
-  
+  </html> -->
+  <?php get_footer(); ?>

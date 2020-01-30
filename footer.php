@@ -5,7 +5,7 @@
       width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   </div>
   <div class="call">
-    <a class="call-to-us" href="tel: +7(123)-456-7890"><img src="assets/img/icons/call.png" alt="call" /></a>
+    <a class="call-to-us" href="tel: +7(123)-456-7890"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/icons/call.png" alt="call" /></a>
   </div>
   <footer>
     <div class="footer">
@@ -35,7 +35,7 @@
       </a>
     </div>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
   <!-- <script src="assets/js/main.js"></script> -->
 
   <?php wp_footer(); ?>
