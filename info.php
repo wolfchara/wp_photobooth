@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+// Template Name: info
+get_header(); ?>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +10,7 @@
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="./img/icons/favicon.png"
+      href="http://photobooth/wp-content/themes/photobooth/assets/img/icons/favicon.png"
     />
     <link
       href="https://fonts.googleapis.com/css?family=Aleo:400,700|Josefin+Sans:300,400,600,700&display=swap&"
@@ -56,7 +59,7 @@
           <span href="" onclick="openNav()">&#9776;МЕНЮ</span>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="info__container">
       <div class="head__title">
         <h2>
@@ -92,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class="map">
+    <!-- <div class="map">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d779.4575920282467!2d24.710341450551557!3d48.919728800259136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1579007299243!5m2!1suk!2sua"
         width="100%"
@@ -104,7 +107,7 @@
     </div>
     <div class="call">
       <a class="call-to-us" href="tel: +7(123)-456-7890"
-        ><img src="./img/icons/call.png" alt="call"
+        ><img src="http://photobooth/wp-content/themes/photobooth/assets/img/icons/call.png" alt="call"
       /></a>
     </div>
     <footer>
@@ -158,4 +161,5 @@
     </footer>
     <script src="js/main.js"></script>
   </body>
-</html>
+</html> -->
+<?php get_footer(); ?>

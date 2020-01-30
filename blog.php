@@ -1,11 +1,14 @@
-<!DOCTYPE html>
+<?php
+// Template Name: blog
+get_header(); ?>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="shortcut icon" type="image/x-icon" href="./img/icons/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="http://photobooth/wp-content/themes/photobooth/assets/img/icons/favicon.png" />
   <link href="https://fonts.googleapis.com/css?family=Aleo:400,700|Josefin+Sans:300,400,600,700&display=swap&"
     rel="stylesheet" />
   <link rel="stylesheet" href="css/normalize.css" />
@@ -55,7 +58,7 @@
         <span href="" onclick="openNav()">&#9776;МЕНЮ</span>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="contact__container">
     <div class="head__title">
       <h2>
@@ -66,7 +69,7 @@
     <div class="blog__container">
       <div class="blog__container__content">
         <div class="blog__container__content__block-image">
-          <img src="./img/blog/wedding.jpg" alt="wedding">
+          <img src="http://photobooth/wp-content/themes/photobooth/assets/img/blog/wedding.jpg" alt="wedding">
         </div>
         <div class="blog__container__content__date-header">
           <h2>
@@ -76,14 +79,14 @@
             Если вы ожидаете получить красивые фотографии с вашего торжества, то фотобудка для свадьбы именно то, что
             вам нужно.
           </p>
-          <a href="blog-wedding.html"><button class="blog__button">Больше</button></a>
+          <a href="<?php echo get_page_link(39); ?>"><button class="blog__button">Больше</button></a>
         </div>
       </div>
     </div>
     <div class="blog__container">
       <div class="blog__container__content">
         <div class="blog__container__content__block-image">
-          <img src="./img/blog/gif.gif" alt="wedding">
+          <img src="http://photobooth/wp-content/themes/photobooth/assets/img/blog/gif.gif" alt="wedding">
         </div>
         <div class="blog__container__content__date-header">
           <h2>
@@ -92,14 +95,14 @@
           <p>
             Что может быть круче, чем забавные картинки с вашей следующей встречи? Как насчет GIF-фотостудии, где ваши
             изображения оживают? </p>
-          <a href="blog-gif.html"><button class="blog__button">Больше</button></a>
+          <a href="<?php echo get_page_link(43); ?>"><button class="blog__button">Больше</button></a>
         </div>
       </div>
     </div>
     <div class="blog__container">
       <div class="blog__container__content">
         <div class="blog__container__content__block-image">
-          <img src="./img/blog/halloween.jpg" alt="wedding">
+          <img src="http://photobooth/wp-content/themes/photobooth/assets/img/blog/halloween.jpg" alt="wedding">
         </div>
         <div class="blog__container__content__date-header">
           <h2>
@@ -108,14 +111,14 @@
           <p>
             Хэллоуин быстро приближается к нам, и это своего рода варенье. Между праздничной едой, декором и, конечно
             же, эпической ... </p>
-          <a href="blog-halloween.html"><button class="blog__button">Больше</button></a>
+          <a href="<?php echo get_page_link(46); ?>"><button class="blog__button">Больше</button></a>
         </div>
       </div>
     </div>
     <div class="blog__container">
       <div class="blog__container__content">
         <div class="blog__container__content__block-image">
-          <img src="./img/blog/graduation.jpg" alt="wedding">
+          <img src="http://photobooth/wp-content/themes/photobooth/assets/img/blog/graduation.jpg" alt="wedding">
         </div>
         <div class="blog__container__content__date-header">
           <h2>
@@ -124,14 +127,14 @@
           <p>
             Выпускные вечера и фотобудки идут вместе, как пирожное и еще раз пирожное. Это прекрасная возможность
             отметить момент ... </p>
-          <a href="blog-graduation.html"><button class="blog__button">Больше</button></a>
+          <a href="<?php echo get_page_link(48); ?>"><button class="blog__button">Больше</button></a>
         </div>
       </div>
     </div>
     <div class="blog__container">
       <div class="blog__container__content">
         <div class="blog__container__content__block-image">
-          <img src="./img/blog/birthday.jpg" alt="wedding">
+          <img src="http://photobooth/wp-content/themes/photobooth/assets/img/blog/birthday.jpg" alt="wedding">
         </div>
         <div class="blog__container__content__date-header">
           <h2>
@@ -141,14 +144,14 @@
             Независимо от того, устраиваете ли вы вечеринку для тех, кому исполняется 9, 99 или 199; Дети, взрослые и
             вампиры все любят фотобудки!
           </p>
-          <a href="blog-birthday.html"><button class="blog__button">Больше</button></a>
+          <a href="<?php echo get_page_link(52); ?>"><button class="blog__button">Больше</button></a>
         </div>
       </div>
     </div>
     <div class="blog__container">
       <div class="blog__container__content">
         <div class="blog__container__content__block-image">
-          <img src="./img/blog/brand.jpg" alt="wedding">
+          <img src="http://photobooth/wp-content/themes/photobooth/assets/img/blog/brand.jpg" alt="wedding">
         </div>
         <div class="blog__container__content__date-header">
           <h2>
@@ -157,14 +160,14 @@
             Планируете ли вы отмечать корпоративную вечеринку? Хотите по-своему выделиться среди других подобных событий
             ...
           </p>
-          <a href="blog-brand.html"><button class="blog__button">Больше</button></a>
+          <a href="<?php echo get_page_link(56); ?>"><button class="blog__button">Больше</button></a>
         </div>
       </div>
     </div>
     <div class="blog__container">
       <div class="blog__container__content">
         <div class="blog__container__content__block-image">
-          <img src="./img/blog/event.jpg" alt="wedding">
+          <img src="http://photobooth/wp-content/themes/photobooth/assets/img/blog/event.jpg" alt="wedding">
         </div>
         <div class="blog__container__content__date-header">
           <h2>
@@ -173,17 +176,17 @@
             От ДНЕЙ РОЖДЕНИЯ К КОРПОРАТИВНЫМ СОБЫТИЯМ, АРЕНДА ФОТОГРАФИИ ОБЪЕКТА ВСЕГДА ОТЛИЧНАЯ ИДЕЯ.
             Фотография может запечатлеть момент во времени и вызвать ...
           </p>
-          <a href="blog-event.html"><button class="blog__button">Больше</button></a>
+          <a href="<?php echo get_page_link(58); ?>"><button class="blog__button">Больше</button></a>
         </div>
       </div>
     </div>
-    <div class="map">
+    <!-- <div class="map">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d779.4575920282467!2d24.710341450551557!3d48.919728800259136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1579007299243!5m2!1suk!2sua"
         width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
     <div class="call">
-      <a class="call-to-us" href="tel: +7(123)-456-7890"><img src="./img/icons/call.png" alt="call" /></a>
+      <a class="call-to-us" href="tel: +7(123)-456-7890"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/icons/call.png" alt="call" /></a>
     </div>
     <footer>
       <div class="footer">
@@ -218,4 +221,5 @@
     <script src="js/main.js"></script>
 </body>
 
-</html>
+</html> -->
+<?php get_footer(); ?>

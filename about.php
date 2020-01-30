@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php
+// Template Name: about
+get_header(); ?>
 <!-- <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -58,7 +60,6 @@
         </div>
       </div>
     </div> -->
-    <?php get_template_part( "about.php" ); ?>
     <div class="about__container">
       <div class="head__title">
         <h2>

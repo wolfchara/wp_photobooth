@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+// Template Name: contacts
+get_header(); ?>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +10,7 @@
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="./img/icons/favicon.png"
+      href="http://photobooth/wp-content/themes/photobooth/assets/img/icons/favicon.png"
     />
     <link
       href="https://fonts.googleapis.com/css?family=Aleo:400,700|Josefin+Sans:300,400,600,700&display=swap&"
@@ -56,7 +59,7 @@
           <span href="" onclick="openNav()">&#9776;МЕНЮ</span>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="contact__container">
       <div class="head__title">
         <h2>
@@ -65,9 +68,9 @@
         <hr />
       </div>
       <div class="contacts">
-          <p class="telnum"><img src="./img/icons/call__us.png" alt="call__us"><a href="tel: +7(123)-456-7890">+7(123)-456-7890</a></p>
-          <p class="email"><img src="./img/icons/mail.png" alt="email"><a href="mailto:qwe@gmail.com">qwe@gmail.com</a></p>
-          <p class="location"><img src="./img/icons/location.png" alt="location">Независимости 123/20а</p>
+          <p class="telnum"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/icons/call__us.png" alt="call__us"><a href="tel: +7(123)-456-7890">+7(123)-456-7890</a></p>
+          <p class="email"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/icons/mail.png" alt="email"><a href="mailto:qwe@gmail.com">qwe@gmail.com</a></p>
+          <p class="location"><img src="http://photobooth/wp-content/themes/photobooth/assets/img/icons/location.png" alt="location">Независимости 123/20а</p>
       </div>
     </div>
     <div class="contact_wrapper-form">
@@ -77,11 +80,11 @@
             <input type="tel" name="email" placeholder="Ваш номер телефона" required=""><br>
             <textarea name="message" placeholder="Ваше сообщение" required=""></textarea><br>
             <div class="contacts__button">
-              <a href="./contacts.html"><button class="price__button">Контакты</button></a>
+              <a href="http://photobooth/wp-content/themes/photobooth/assets/contacts.html"><button class="price__button">Контакты</button></a>
             </div>
         </form>
     </div>
-    <div class="map">
+    <!-- <div class="map">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d779.4575920282467!2d24.710341450551557!3d48.919728800259136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1579007299243!5m2!1suk!2sua"
         width="100%"
@@ -93,7 +96,7 @@
     </div>
     <div class="call">
       <a class="call-to-us" href="tel: +7(123)-456-7890"
-        ><img src="./img/icons/call.png" alt="call"
+        ><img src="http://photobooth/wp-content/themes/photobooth/assets/img/icons/call.png" alt="call"
       /></a>
     </div>
     <footer>
@@ -147,4 +150,5 @@
     </footer>
     <script src="js/main.js"></script>
   </body>
-</html>
+</html> -->
+<?php get_footer(); ?>
